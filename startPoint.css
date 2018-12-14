@@ -1,36 +1,43 @@
-	#title {
+	
+	#dumpster {
 
 		text-align: center;
-		position: relative;
-		top: 20%;
+		position: relative;	
+		top: 15%;
         position:absolute;
         left:0; right:0;
         margin:auto;
+		width: auto;
+		height: 17%;
+		max-width: 90%;
 	
-		font-family: 'Hammersmith One', sans-serif;
-		color: black;
+	
+		font-family: 'Arial Rounded MT Bold', sans-serif;
+		font-weight: bold;
+		color: #2394bc;
 		text-align: center;
-		font-size: 48px;
+		font-size: 64px;
 		padding: 15px 30px 15px 30px;
 	  	z-index: 2000;
         overflow:auto;
 	}
 
 	#start {
+
 		text-align: center;
 		position: relative;
-		top: 50%;
+		top: 55%;
         position:absolute;
         left:0; right:0;
         margin:auto;
  	
-		font-family: 'Hammersmith One', sans-serif;
+		font-family: 'Arial Rounded MT Bold', sans-serif;
 		font-size: 20px;
 		color: white;
 		text-align: center;
 		border-radius: 8px;
 		font-size: 21px;
-		background: #42A5F6;
+		background: #2394bc;
 		padding: 15px 30px 15px 30px;
 		border: none;
 	  	z-index: 2000;
@@ -38,6 +45,7 @@
 	} 
 	
 	#start:hover {
-		background: #0090FF;
+	
+		background: #2394bc;
 		color: black;
 	} 

@@ -12,24 +12,25 @@
         position:absolute;
 		
  	
-		font-family: 'Hammersmith One', sans-serif;
+		font-family: 'Arial Rounded MT Bold', sans-serif;
 		font-size: 20px;
 		color: white;
 		text-align: center;
 		border-radius: 8px;
 		font-size: 21px;
-		background: #42A5F6;
+		background: #2394bc;
 		padding: 10px 20px 10px 20px;
 		border: none;
 	  	z-index: 2000;
 	}
 	
 	#back:hover{
-		background: #0090FF;
+		background: #2394bc;
 		color: black;
 	} 
 	
  	#findRoute {
+ 		display: none;
 		text-align: center;
 		position: relative;
 		top: 90%;
@@ -37,20 +38,21 @@
         position:absolute;
 		
  	
-		font-family: 'Hammersmith One', sans-serif;
+		font-family: 'Arial Rounded MT Bold', sans-serif;
 		font-size: 20px;
+		text-decoration: none;
 		color: white;
 		text-align: center;
 		border-radius: 8px;
 		font-size: 21px;
-		background: #42A5F6;
+		background: #2394bc;
 		padding: 10px 20px 10px 20px;
 		border: none;
 	  	z-index: 2000;
 	}
 	
 	#findRoute:hover{
-		background: #0090FF;
+		background: #2394bc;
 		color: black;
 	} 
 
