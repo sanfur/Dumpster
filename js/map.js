@@ -38,7 +38,7 @@
 			var toProjection   	= new OpenLayers.Projection("EPSG:900913");
 			var position       	= new OpenLayers.LonLat(longitude, latitude).transform( fromProjection, toProjection);       
 			var size 			= new OpenLayers.Size(30,30);
-			var icon 			= new OpenLayers.Icon('marker.png', size);   
+			var icon 			= new OpenLayers.Icon('media/marker.png', size);   
 			var zoom           	= 15;   
 			map.addLayer(mapnik);
 			
@@ -127,7 +127,7 @@
 				var distance = pointToilet.distanceTo(pointWifi);
 				
 				if(distance < 0.001){
-					  var icon = new OpenLayers.Icon('hotspotToiletMarker.png', size); 
+					  var icon = new OpenLayers.Icon('media/hotspotToiletMarker.png', size); 
 					  var marker = new OpenLayers.Marker(position, icon);
 					  markers.addMarker(marker);            
 					  markers.events.register( 'click', marker, function(marker){ 
@@ -137,7 +137,7 @@
 				}	 
 		  }
 		  
-		  var icon = new OpenLayers.Icon('toiletMarker.png', size);  
+		  var icon = new OpenLayers.Icon('media/toiletMarker.png', size);  
 		  var marker = new OpenLayers.Marker(position, icon);		  
 		  markers.addMarker(marker);		  
 		  markers.events.register( 'click', marker, function(marker){ 
