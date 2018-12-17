@@ -1,7 +1,5 @@
 
 	  // Global variables
-	  var latitudeSimulation = 51.508530;
-	  var longitudeSimulation = -0.076132;
       var wifis = [];
       var map;
       var currentPosition;
